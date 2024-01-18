@@ -1,3 +1,6 @@
+## App video
+![video](https://github.com/RAAMKHOT/AR-Location-Android/blob/main/AR_LocationBased_trimed_2.mov)
+
 ## Usage
 
 To use this library, just extend the ARActivity class in your activity class. To add points, just make ArrayList of Place, and call ARInitData with ArrayList of Place as the parameter. You must add radius (in meter) as parameter too. You can access the point that user clicked inside onARPointSelected's method.
