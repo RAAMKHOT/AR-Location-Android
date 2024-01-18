@@ -1,5 +1,5 @@
 ## App video
-![video](https://github.com/RAAMKHOT/AR-Location-Android/blob/main/AR_LocationBased_trimed_2.mov)
+![video](https://github.com/RAAMKHOT/AR-Location-Android/blob/main/AR_LocationBased_9mb.gif)
 
 ## Usage
 
