@@ -30,3 +30,20 @@ class MainActivity : ARActivity() {
 - [x] Filter Place with radius of distance
 - [ ] Load url image on cardview
 - [ ] Customize the cardview
+
+## LINK This app to Other App
+1.       
+    button.setOnClickListener(DoubleTapSafeClickListener {
+        openArBaseLocationApp("com.dewakoding.ar_locationbased")
+    })
+
+2. 
+    private fun openArBaseLocationApp(packageName: String) {
+        //com.dewakoding.ar_locationbased
+        val intent = Intent(Intent.ACTION_MAIN)
+        intent.component = ComponentName(packageName, "${packageName}.MainActivity")
+        startActivity(intent)
+    }
+
+
+
